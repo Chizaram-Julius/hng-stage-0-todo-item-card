@@ -99,3 +99,42 @@ button {
 button:hover {
   transform: scale(1.05);
 }
+
+.hidden {
+  display: none;
+}
+
+.collapsed {
+  max-height: 40px;
+  overflow: hidden;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.indicator.high {
+  background: red;
+}
+.indicator.medium {
+  background: orange;
+}
+.indicator.low {
+  background: green;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.in-progress {
+  border: 2px solid blue;
+}
+
+.overdue {
+  color: red;
+}
