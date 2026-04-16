@@ -58,3 +58,15 @@ Open `index.html` in your browser
 * Semantic HTML elements used (article, time, buttons)
 * Interactive elements are keyboard accessible
 * Expand/collapse and buttons are usable via keyboard
+
+---
+## Live Demo
+
+https://chizaram-julius.github.io/hng-stage-0-todo-item-card/
+
+---
+
+## GitHub Repository
+
+https://github.com/chizaram-julius/hng-stage-0-todo-item-card
+
