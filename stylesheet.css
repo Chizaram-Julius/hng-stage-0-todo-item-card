@@ -20,28 +20,30 @@ body {
   text-align: center;
 }
 
-.description {
-  font-size: 18px;
-  line-height: 120%;
-  opacity: 0.6;
-}
-
 .todo-header {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
+.description {
+  font-size: 18px;
+  line-height: 120%;
+  opacity: 0.6;
+}
+
 .todo-info {
+  margin-top: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
+  font-size: 15px;
 }
 
 .priority {
-  padding: 4px 8px;
+  padding: 5px;
   border-radius: 6px;
-  font-size: 12px;
 }
 
 .priority.high {
@@ -50,7 +52,6 @@ body {
 }
 
 .status {
-  margin-left: 10px;
   font-weight: bold;
 }
 
@@ -79,18 +80,27 @@ time {
   font-size: 16px;
 }
 
-.actions {
+.actions-btn {
   margin-top: 15px;
   display: flex;
   gap: 10px;
 }
 
+form {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
 button {
-  padding: 8px 12px;
+  padding: 8px 10px;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
   transition: all 0.5s ease;
   background-color: hsla(0, 0%, 0%, 0.849);
   color: #eee;
@@ -133,6 +143,8 @@ button:hover {
 
 .in-progress {
   border: 2px solid blue;
+  padding: 5px;
+  border-radius: 6px;
 }
 
 .overdue {
