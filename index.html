@@ -22,7 +22,7 @@
 
       <!-- DESCRIPTION -->
       <div data-testid="test-todo-collapsible-section" class="collapsed">
-        <p data-testid="test-todo-description">
+        <p data-testid="test-todo-description" class="description">
           Build a testable todo item card component with semantic HTML, CSS, and
           Javascript.
         </p>
@@ -36,7 +36,7 @@
           data-testid="test-todo-priority-indicator"
           class="indicator high"
         ></span>
-        <span data-testid="test-todo-status">In Progress</span>
+        <span data-testid="test-todo-status" class="status">In Progress</span>
       </div>
 
       <!-- DUE DATE -->
@@ -46,18 +46,18 @@
 
       <!-- TIME -->
       <p data-testid="test-todo-time-remaining" id="timeRemaining"></p>
-      <span data-testid="test-todo-overdue-indicator" class="hidden"
-        >Overdue</span
-      >
+      <span data-testid="test-todo-overdue-indicator" class="hidden">
+        Overdue
+      </span>
 
       <!-- TAGS (UNCHANGED) -->
-      <ul data-testid="test-todo-tags">
+      <ul data-testid="test-todo-tags" class="tags">
         <li data-testid="test-todo-tag-frontend">Frontend</li>
         <li data-testid="test-todo-tag-hng">HNG</li>
       </ul>
 
       <!-- ACTIONS -->
-      <div data-testid="test-todo-action-button" class="action-btn">
+      <div data-testid="test-todo-action-button" class="actions-btn">
         <button data-testid="test-todo-edit-button">Edit</button>
         <button data-testid="test-todo-delete-button">Delete</button>
       </div>
